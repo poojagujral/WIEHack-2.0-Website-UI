@@ -9,8 +9,10 @@ body{
   font-family: sans-serif;
 }
 #particles-js{
-  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(aurora.jpg);
-  background-size: cover;
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(WIEHack_girl.png);
+  background-size: contain;
+  background-repeat:no-repeat;
+  background-color: black;
   background-position: center;
   height: 100vh;
 }
