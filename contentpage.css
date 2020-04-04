@@ -263,3 +263,62 @@ main{
   transform: rotate(-180deg);
   color: #20002c;
 }
+.icons{
+
+  position: fixed;
+  top: 30%;
+  right: 0%;
+  width: 230px;
+  display: flex;
+  flex-direction: column;
+}
+.icons a{
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 10px;
+  font-size: 22px;
+  font-family: 'Oswald', sans-serif;
+  margin: 2px;
+  text-align: left;
+  border-radius: 50px 0px 0px 50px;
+  transform: translate(180px, 0px);
+  transition: all 0.5s;
+}
+.icons a:hover{
+  transform: translate(0px, 0px);
+}
+.icons a i{
+  margin-right: : 20px;
+  background-color: white;
+  height: 40px;
+  width: 40px;
+  color: black;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  transition: all 0.5s;
+}
+.icons a:hover i{
+  transform: rotate(360deg);
+}
+.icons a i.fa-file-upload{
+  color: #2c80d3;
+}
+.icons a i.fa-video{
+  color: #fa0910;
+}
+.icons a i.fa-question-circle{
+  color: #53c5ff;
+}
+.submissions{
+  background-color: #2c80d3;
+  color: white;
+}
+.video{
+  background-color: #fa0910;
+  color: white;
+}
+.faq{
+  background-color: #53c5ff;
+  color: white;
+}
